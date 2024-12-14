@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "real-estate-toolkit"
+version = "0.1.0"
+description = ""
+authors = 
+    ["Miguel Crombois <miguel.crombois01@estudiant.upf.edu>"],
+    ["Miguel Crombois <miguel.crombois01@estudiant.upf.edu>"],
+    ["Miguel Crombois <miguel.crombois01@estudiant.upf.edu>"],
+    ["Miguel Crombois <miguel.crombois01@estudiant.upf.edu>"],
+readme = "README.md"
+packages = [{include = "real_estate_toolkit", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.1.3"
+polars = "^1.16.0"
+plotly = "^5.24.1"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
